@@ -38,7 +38,7 @@ title: SOP Development
 3. Setiap aplikasi yang dibuat dimulai dengan versi <strong>0.1.0</strong> dan akan berubah menjadi versi <strong>1.0.0</strong> ketika sudah siap diberikan kepada product owner / client dan masuk ke fase production untuk yang pertama kalinya.
 4. Kenaikan versi hanya terjadi apabila project manager sudah menyepakati bahwa aplikasi yang dibuat sudah layak untuk di-release / dipresentasikan kepada product owner / client.
 5. Setiap terjadi kenaikan versi pada sebuah aplikasi, developer diharuskan untuk membuat "annotated tagging" dengan nama sesuai dengan nomor revisi terakhir dengan format vX.Y.Z (misal v1.1.4) pada HEAD milik branch "main".
-6. Setiap terjadi kenaikan versi pada sebuah aplikasi, developer diharuskan untuk membuat changelog perubahan yang terjadi yang disimpan didalam berkas bernama "changelog" atau "changelog.txt" yang berisi tentang perubahan apa saja yang terjadi dari versi sebelumnya seperti contoh dibawah ini:
+6. Setiap terjadi kenaikan versi pada sebuah aplikasi, developer diharuskan untuk membuat changelog perubahan yang terjadi yang disimpan didalam berkas bernama "changelog" atau "changelog.txt" yang berisi tentang perubahan apa saja yang terjadi dari versi sebelumnya seperti contoh dibawah ini: 
 {% highlight js %}
 Changelog:
 
